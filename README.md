@@ -7,4 +7,11 @@ The intention of this repository is to share my learning journey and provide ref
 Feel free to explore the notebooks and use them as a resource for your own learning!
 
 ## Repository Structure
-- `src/*.ipynb`: Jupyter Notebooks containing solutions to the exercises from the ARENA course.
+- `notebooks/*.ipynb`: Jupyter Notebooks containing solutions to the exercises from the ARENA course.
+- `src/`: Modular production code implementation of theory developed in the notebooks.
+
+## Running Demo transformer model
+
+```bash
+uv run src/gpt/main.py
+```
