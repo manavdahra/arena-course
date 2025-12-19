@@ -1,9 +1,5 @@
-from dataclasses import dataclass
-import torch
 from torch import nn, Tensor
 from jaxtyping import Float, Int
-from transformer_lens import HookedTransformer
-from transformer_lens.utils import gelu_new
 from config import Config
 from embedding import Embed, PosEmbed, Unembed
 from layer_norm import LayerNorm
